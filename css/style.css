@@ -1,0 +1,24 @@
+*{
+/* universal */
+}
+
+body{
+    background-color:brown
+}
+
+header nav ul li:first-child a{
+    color: rgb(68, 102, 64);
+    /* primer elemento "hijo" */
+}
+header nav ul li a{
+    color: rgb(126, 168, 168) ;
+}
+header nav ul li:nth-child(2) a{
+    color: rgb(43, 198, 226);
+    /* hijo elegido numericamente */
+}
+header nav ul li:last-child a{
+    color: blueviolet;
+    /* ultimo elemento "hijo" */
+}
+
